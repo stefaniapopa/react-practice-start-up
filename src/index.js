@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+export { default as Home} from './pages/Home'
 
 ReactDOM.render(
   <React.StrictMode>
