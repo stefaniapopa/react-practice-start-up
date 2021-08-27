@@ -56,7 +56,7 @@
   }
   
   header #logo {
-    font-size: 175%;
+    font-size: 100%;
     text-align: center;
     color: var(--main-color);
     line-height: 1;
@@ -116,16 +116,17 @@
   .calendar {
     display: block;
     position: relative;
-    width: 100%;
+    float: right;
+    width: 50%;
     background: var(--neutral-color);
     border: 1px solid var(--border-color);
   }
   
   .calendar .header {
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 115%;
-    padding: 1.5em 0;
+    font-weight: 100;
+    font-size: 50%;
+    padding: 0.2em 0;
     border-bottom: 1px solid var(--border-color);
   }
   
@@ -150,16 +151,16 @@
   
   .calendar .days {
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 50;
     color: var(--text-color-light);
-    font-size: 70%;
-    padding: .75em 0;
+    font-size: 50%;
+    padding: .5em 0;
     border-bottom: 1px solid var(--border-color);
   }
   
   .calendar .body .cell {
     position: relative;
-    height: 5em;
+    height: 1.4em;
     border-right: 1px solid var(--border-color);
     overflow: hidden;
     cursor: pointer;
@@ -192,11 +193,11 @@
   
   .calendar .body .cell .number {
     position: absolute;
-    font-size: 82.5%;
+    font-size: 65%;
     line-height: 1;
     top: .75em;
     right: .75em;
-    font-weight: 700;
+    font-weight: 100;
   }
   
   .calendar .body .disabled {
@@ -205,11 +206,11 @@
   }
   
   .calendar .body .cell .bg {
-    font-weight: 700;
+    font-weight: 300;
     line-height: 1;
     color: var(--main-color);
     opacity: 0;
-    font-size: 8em;
+    font-size: 1.5em;
     position: absolute;
     top: -.2em;
     right: -.05em;
